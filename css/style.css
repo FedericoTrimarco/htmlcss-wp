@@ -10,6 +10,10 @@
     width: 80%;
     margin: 0 auto;
 }
+p{
+    font-size: 20px;
+}
+/* UTILITIES */
 .clearfix::after{
     display: table;
     content: '';
@@ -33,9 +37,7 @@
     height:100%;
     background-color: rgba(0,0,0,0.3);
 }
-p{
-    font-size: 20px;
-}
+
 
 /* SECTION-TOP */
   /* HEADER-TOP */
