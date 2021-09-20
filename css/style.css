@@ -35,7 +35,6 @@
 }
 p{
     font-size: 20px;
-    color: #a8a8a8;
 }
 
 /* SECTION-TOP */
@@ -63,16 +62,13 @@ header li a:hover {
     background-position: center;
     position: relative;
 }
-.top-img{
+.top-img-text{
     position: absolute;
     left: 60px;
     bottom: 100px;
     width: 45%;
     color: #fff;
     font-size: 25px;
-}
-.top-img p{
-    color: #fff;
 }
 /* SECTION-BOTTOM */
 .section-bottom{
@@ -85,6 +81,9 @@ header li a:hover {
     font-family: sans-serif;
 }
 
+.section-bottom p{
+    color: #a8a8a8;
+}
 .sidebar-left, .sidebar-right, .central-content{
     float: left;
 }
