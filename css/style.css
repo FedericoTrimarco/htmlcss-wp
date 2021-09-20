@@ -25,7 +25,14 @@
 .mt-30{
     margin-top: 30px;
 }
-
+.border15{
+    border-radius: 15px;
+}
+.black-opacity{
+    width: 100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.3);
+}
 /* DEBUG-CONTENT */
 .debug-box  {
     height: 50px;
@@ -44,18 +51,33 @@ header nav li {
 header li a {
     color: #a8a8a8;
     text-decoration: none;
-    font-weight: 600;
 }
 header li a:hover {
     color: black;
 }
-main .section-top .debug-box{
-    background-color: #e1d67a;
+.bg-top{
+    width: 100%;
+    height: 800px;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+.top-img{
+    position: absolute;
+    left: 60px;
+    bottom: 100px;
+    width: 45%;
+    color: #fff;
+    font-size: 25px;
+}
+.top-img p{
+    font-size: 20px;
 }
 /* SECTION-BOTTOM */
 .section-bottom{
     width: 100%;
-    background-color: #0087fd;
+    /* background-color: #0087fd; */
     padding-bottom: 20px;
 }
 .sidebar, .central-content{
