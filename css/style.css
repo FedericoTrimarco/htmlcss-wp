@@ -32,12 +32,6 @@ p{
 .border15{
     border-radius: 15px;
 }
-.black-opacity{
-    width: 100%;
-    height:100%;
-    background-color: rgba(0,0,0,0.3);
-}
-
 
 /* SECTION-TOP */
   /* HEADER-TOP */
@@ -97,28 +91,6 @@ header li a:hover {
     width: 60%;
 }
 
-.sidebar-left-img, .central-content-img, .sidebar-right-img{
-    opacity: 0.7;
-    height: 300px;
-    background-position: center;
-}
-
-.sidebar-left-img, .sidebar-right-img{
-    background-size: cover;
-}
-
-.sidebar-left-img{
-    background-image: url('../img/img-1.jpg');
-}
-
-.central-content-img{
-    background-image: url('../img/banner-2.jpg');
-}
-
-.sidebar-right-img{
-    background-image: url('../img/img-3.jpg');
-}
-
 .section-bottom h2{
     padding-top: 15px;
     padding-bottom: 15px;
@@ -132,4 +104,24 @@ footer span::after{
     content: '\2665';
     color: red;
     font-size: 30px;
+}
+.content-img{
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.content-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content-img::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: rgba(0,0,0,0.1);
 }
